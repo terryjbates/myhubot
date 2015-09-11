@@ -1,1 +1,12 @@
-["github-credentials.coffee","redis-brain.coffee", "shipit.coffee"]
+["github-credentials.coffee",
+  "redis-brain.coffee", 
+  "shipit.coffee", 
+  "ambush.coffee", 
+  "github-activity.coffee",
+  "hackernews.coffee",
+  "haters.coffee",
+  "insult.coffee",
+  "isup.coffee",
+  "keep-alive.coffee",
+  "octospy.coffee"
+]
