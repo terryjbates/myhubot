@@ -1,7 +1,6 @@
 ["github-credentials.coffee",
   "redis-brain.coffee", 
   "shipit.coffee", 
-  "ambush.coffee", 
   "github-activity.coffee",
   "hackernews.coffee",
   "haters.coffee",
