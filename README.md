@@ -212,3 +212,15 @@ Add the subdomain hubot should connect to. If you web URL looks like
 
 You may want to get comfortable with `heroku logs` and `heroku restart` if
 you're having issues.
+
+## Pushing to Github
+git remote add origin https://github.com/terryjbates/myhubot.git
+git push -u origin master
+
+## Adding Heroku variables
+ 8115  heroku config:add HUBOT_SLACK_TOKEN=XXX
+ 8117  heroku config:add HEROKU_URL=https://python-dangerous-slackbot.herokuapp.com
+ 8122  heroku config --shell
+ 8130  heroku config --shell
+ 8132  heroku config:add HUBOT_GITHUB_USER=terryjbates
+ 8176  heroku config:add HUBOT_GITHUB_TOKEN=xxx
